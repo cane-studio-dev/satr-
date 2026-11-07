@@ -92,7 +92,7 @@ table{width:100%;border-collapse:collapse;font-size:.88rem}th,td{padding:8px;bor
 .idc .h{display:flex;align-items:center;gap:8px}.idc .h img{width:26px}.idc .h b{font-size:1rem}.idc .h span{margin-inline-start:auto;font-size:.6rem;background:#2ee6a626;color:#2ee6a6;border:1px solid #2ee6a666;border-radius:99px;padding:0 8px}
 .idc .m{display:flex;gap:10px;align-items:center}.idc .m .nm{font-weight:800;font-size:1.02rem;line-height:1.3}.idc .m small{color:#b8c8ee;display:block;font-size:.66rem}
 .idc .qr{background:#fff;border-radius:8px;padding:3px;flex:none;width:64px;height:64px}.idc .qr canvas,.idc .qr img{width:100%!important;height:100%!important}
-.idc .f{display:flex;align-items:flex-end;justify-content:space-between;gap:8px}.idc .sg{text-align:center;font-size:.55rem;color:#b8c8ee;line-height:1.2}.idc .sg img{height:30px;display:block;margin:0 auto;filter:invert(1) brightness(2.2) hue-rotate(160deg)}
+.idc .f{display:flex;align-items:flex-end;justify-content:space-between;gap:8px}.idc .sg{text-align:center;font-size:.55rem;color:#b8c8ee;line-height:1.2}.idc .sg img{height:44px;display:block;margin:0 auto;filter:invert(1) brightness(2.2) hue-rotate(160deg)}
 .idc .bc{background:#fff;border-radius:4px;padding:2px 4px;direction:ltr}.idc .bc svg{display:block;height:20px;width:120px}
 .cert{background:#fff;color:#14203c;border:10px double #1c8a6e;border-radius:6px;padding:26px 22px;text-align:center;position:relative;max-width:640px;margin:0 auto 14px;aspect-ratio:1.414}
 .cert img.lg{width:54px}.cert h1{margin:.2em 0;color:#0a5a4a;font-size:1.7rem}.cert .nm{font-size:1.8rem;font-weight:800;border-bottom:2px solid #1c8a6e;display:inline-block;padding:0 22px;margin:8px 0}.cert .ft{position:absolute;bottom:18px;inset-inline:22px;display:flex;justify-content:space-between;align-items:flex-end;font-size:.72rem;color:#445}.cert .ft img{height:42px;display:block;margin:0 auto}.cert .qr{width:70px;height:70px}
@@ -109,3 +109,5 @@ table{width:100%;border-collapse:collapse;font-size:.88rem}th,td{padding:8px;bor
 
 .idc .ph{width:54px;height:66px;object-fit:cover;border-radius:9px;border:2px solid #2ee6a688;flex:none}
 .av[src]{object-fit:cover}
+.msg.ann{border:2px solid #e5484d;background:color-mix(in srgb,#e5484d 10%,var(--card))}
+.idc .sg img{filter:brightness(0) invert(1)!important}
